@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li>Admin
+                <ul>
+                    <li><a href="cadastro.html">Cadastro de Livros</a></li>
+                </ul>
+            </li>
+            <li><a href="detalhes.html">Detalhes</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Cadastre um livro</h1>
+    </header>
+    <form action="button">
+        <label>
+            <span>Título:</span>
+            <input name="titulo" type="text" >
+        </label>
+        <label>
+            <span>Autor:</span>
+            <input name="autor" type="text">
+        </label>
+        <label>
+            <span>Gênero:</span>    
+            <input name="genero" type="text">
+        </label>
+        <label>
+            <span>Número de Páginas:</span>   
+            <input name="paginas" type="number">
+        </label>
+        <label>
+            <span>Capa do Livro:</span>
+            <input type="button" value="Importar">
+        </label>
+        <label>
+            <span>Descrição do Livro:</span>
+            <textarea id="descrição" name="descrição"
+            rows="10" cols="33">
+            </textarea>
+        </label>
+        <button>Enviar</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Titulo:</th>
+            <th>Autor</th>
+            <th>Gênero</th>
+            <th>Número de páginas:</th>
+
+        </tr>
+        <tr>
+            <td>A Revolução dos Bichos</td>
+            <td>George Orwell</td>
+            <td>Fábula</td>
+            <td>152</td>
+            <td>
+                <input id="edit" type="submit" nome="edit" value="Editar" />
+                <input id="apagar" type="submit" name="apagar" value="Apagar" />
+            </td>
+        </tr>
+        <tr>
+            <td>A Garota do Lago</td>
+            <td>Charlie Donlea</td>
+            <td>Suspense</td>
+            <td>296 </td>
+            <td>
+                <input id="edit" type="submit" nome="edit" value="Editar" />
+                <input id="apagar" type="submit" name="apagar" value="Apagar" />
+            </td>
+        </tr>
+    </table>
+    <footer>Desenvolvido por Nayane ;)</footer>
+</body>
+</html>
